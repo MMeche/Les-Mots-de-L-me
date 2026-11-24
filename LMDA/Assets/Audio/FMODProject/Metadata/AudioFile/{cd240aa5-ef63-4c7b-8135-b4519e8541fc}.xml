@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{cd240aa5-ef63-4c7b-8135-b4519e8541fc}">
+		<property name="assetPath">
+			<value>GamePoetStele.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>9.9010430839002268</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3b024fe5-9778-4d51-ba8b-0b9b4340ae50}</destination>
+		</relationship>
+	</object>
+</objects>

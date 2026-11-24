@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>PlantUmlClassDiagramGenerator</id>
+    <version>1.4.0</version>
+    <authors>pierre3</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/pierre3/PlantUmlClassDiagramGenerator</projectUrl>
+    <description>This is a generator to create a class-diagram of PlantUML from the C# source code.</description>
+    <releaseNotes>[V1.4.0]
+			- Updated the target framework to .NET 8.0.
+			- Fixed an issue where Nullable types were not being output with the createAssociation option.</releaseNotes>
+    <copyright>© 2015-2024 pierre3</copyright>
+    <tags>plantuml</tags>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+    <repository type="git" url="https://github.com/pierre3/PlantUmlClassDiagramGenerator" commit="edd5d9c8426387a603c7fce0fe302f77eb3f21fb" />
+  </metadata>
+</package>

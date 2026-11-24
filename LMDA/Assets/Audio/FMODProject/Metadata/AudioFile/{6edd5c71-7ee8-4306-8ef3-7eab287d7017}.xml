@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{6edd5c71-7ee8-4306-8ef3-7eab287d7017}">
+		<property name="assetPath">
+			<value>Juhani Junkala - Epic Boss Battle [Seamlessly Looping].wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>123.42859410430839</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3b024fe5-9778-4d51-ba8b-0b9b4340ae50}</destination>
+		</relationship>
+	</object>
+</objects>

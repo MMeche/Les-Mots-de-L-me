@@ -1,0 +1,862 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7982373334221995775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Stele4Voice
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Stele4Voice
+  Guid:
+    Data1: 628258718
+    Data2: 1332197722
+    Data3: -261220944
+    Data4: 1801578082
+  Banks:
+  - {fileID: 9111712085305500034}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 15375
+--- !u!114 &-7328181821393892342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FMODProject/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 639310657882392566
+  FileSizes:
+  - Name: Desktop
+    Value: 2260
+  Exists: 1
+--- !u!114 &-6823666932202105516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ZoneThemes/BattleThemeLyr
+  m_EditorClassIdentifier: 
+  Path: event:/ZoneThemes/BattleThemeLyr
+  Guid:
+    Data1: -1266882938
+    Data2: 1106216439
+    Data3: -1256194170
+    Data4: -1968686119
+  Banks:
+  - {fileID: 9111712085305500034}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 240000
+--- !u!114 &-5488371652832143881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Stele1Voice
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Stele1Voice
+  Guid:
+    Data1: -1329428091
+    Data2: 1100320984
+    Data3: 1532864693
+    Data4: 1989439226
+  Banks:
+  - {fileID: 9111712085305500034}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 16500
+--- !u!114 &-4225319568834052718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Stele2Voice
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Stele2Voice
+  Guid:
+    Data1: -715277899
+    Data2: 1198443607
+    Data3: 901833375
+    Data4: 1889380021
+  Banks:
+  - {fileID: 9111712085305500034}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 18250
+--- !u!114 &-2947290452518051627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FMODProject/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 639310657882382568
+  FileSizes:
+  - Name: Desktop
+    Value: 2512
+  Exists: 1
+--- !u!114 &-1886552243177098306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ZoneThemes/TitleScreen
+  m_EditorClassIdentifier: 
+  Path: event:/ZoneThemes/TitleScreen
+  Guid:
+    Data1: -1105115012
+    Data2: 1303578246
+    Data3: 792702087
+    Data4: -58002525
+  Banks:
+  - {fileID: 9111712085305500034}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 105333
+--- !u!114 &-610072068448999776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UIError
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UIError
+  Guid:
+    Data1: -1624114829
+    Data2: 1107617921
+    Data3: -259636095
+    Data4: 2103966585
+  Banks:
+  - {fileID: 9111712085305500034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -7328181821393892342}
+  - {fileID: -2947290452518051627}
+  - {fileID: 9111712085305500034}
+  EditorEvents:
+  - {fileID: 6432908596673004966}
+  - {fileID: 5828381896587329511}
+  - {fileID: 1581097289904756950}
+  - {fileID: 7026840307665506607}
+  - {fileID: 1456409021285844223}
+  - {fileID: 8290356702576644299}
+  - {fileID: 177531226728878838}
+  - {fileID: 8614463229766330679}
+  - {fileID: -610072068448999776}
+  - {fileID: 2609994317000913344}
+  - {fileID: 1013413485149585040}
+  - {fileID: -1886552243177098306}
+  - {fileID: -5488371652832143881}
+  - {fileID: -7982373334221995775}
+  - {fileID: -4225319568834052718}
+  - {fileID: 2492634174471390923}
+  - {fileID: 4476456349280795576}
+  - {fileID: 5471316445414660556}
+  - {fileID: 360487091914914252}
+  - {fileID: -6823666932202105516}
+  - {fileID: 4622043604129636525}
+  - {fileID: 6112401946058794393}
+  - {fileID: 9033574828275436658}
+  - {fileID: 3920691370645077052}
+  - {fileID: 1572927905730063487}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -2947290452518051627}
+  StringsBanks:
+  - {fileID: -7328181821393892342}
+  cacheVersion: 131849
+  cacheTime: 639310657890586344
+  SerializableEventsDict:
+  - key: event:/SFX/EnemyDamaged
+    index: 0
+  - key: event:/ZoneThemes/Lvl1Theme
+    index: 1
+  - key: event:/Voice/MinisteleArgumentatif
+    index: 2
+  - key: event:/Voice/MinisteleShit
+    index: 3
+  - key: event:/SFX/Walk
+    index: 4
+  - key: event:/Voice/Stele3Voice
+    index: 5
+  - key: event:/SFX/PlayerDamaged
+    index: 6
+  - key: event:/Voice/MinistelePoetique
+    index: 7
+  - key: event:/UI/UIError
+    index: 8
+  - key: event:/UI/UICursorHover
+    index: 9
+  - key: event:/Voice/MinisteleNarratif
+    index: 10
+  - key: event:/ZoneThemes/TitleScreen
+    index: 11
+  - key: event:/Voice/Stele1Voice
+    index: 12
+  - key: event:/Voice/Stele4Voice
+    index: 13
+  - key: event:/Voice/Stele2Voice
+    index: 14
+  - key: event:/UI/UICursorClick
+    index: 15
+  - key: event:/ZoneThemes/BattleTheme
+    index: 16
+  - key: event:/Voice/MinisteleLyrique
+    index: 17
+  - key: event:/UI/UICancel
+    index: 18
+  - key: event:/ZoneThemes/BattleThemeLyr
+    index: 19
+  - key: event:/ZoneThemes/BattleThemeNarr
+    index: 20
+  - key: event:/ZoneThemes/BattleThemePoet
+    index: 21
+  - key: event:/ZoneThemes/BattleThemeArg
+    index: 22
+  - key: snapshot:/New Snapshot
+    index: 23
+  - key: event:/Voice/VoiceIntro
+    index: 24
+--- !u!114 &177531226728878838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/PlayerDamaged
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/PlayerDamaged
+  Guid:
+    Data1: -1279118286
+    Data2: 1107501586
+    Data3: -90233153
+    Data4: 1434326438
+  Banks:
+  - {fileID: 9111712085305500034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 293
+--- !u!114 &360487091914914252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UICancel
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UICancel
+  Guid:
+    Data1: -997237531
+    Data2: 1281260306
+    Data3: -1923053912
+    Data4: 2042523513
+  Banks:
+  - {fileID: 9111712085305500034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &1013413485149585040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/MinisteleNarratif
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/MinisteleNarratif
+  Guid:
+    Data1: 629533304
+    Data2: 1199255056
+    Data3: -1132649325
+    Data4: 1470287584
+  Banks:
+  - {fileID: 9111712085305500034}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10561
+--- !u!114 &1456409021285844223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Walk
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Walk
+  Guid:
+    Data1: -1468949462
+    Data2: 1144119948
+    Data3: -1502205031
+    Data4: 1507812148
+  Banks:
+  - {fileID: 9111712085305500034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2800
+--- !u!114 &1572927905730063487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/VoiceIntro
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/VoiceIntro
+  Guid:
+    Data1: 1355958071
+    Data2: 1225610652
+    Data3: -833234302
+    Data4: 2068560591
+  Banks:
+  - {fileID: 9111712085305500034}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 42000
+--- !u!114 &1581097289904756950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/MinisteleArgumentatif
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/MinisteleArgumentatif
+  Guid:
+    Data1: -1134894576
+    Data2: 1174456686
+    Data3: 1222535040
+    Data4: -885866816
+  Banks:
+  - {fileID: 9111712085305500034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9279
+--- !u!114 &2492634174471390923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UICursorClick
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UICursorClick
+  Guid:
+    Data1: 475545549
+    Data2: 1149537434
+    Data3: 2106797758
+    Data4: -1002353011
+  Banks:
+  - {fileID: 9111712085305500034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &2609994317000913344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UICursorHover
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UICursorHover
+  Guid:
+    Data1: 537145464
+    Data2: 1112867018
+    Data3: -1054930537
+    Data4: 149447260
+  Banks:
+  - {fileID: 9111712085305500034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 700
+--- !u!114 &3920691370645077052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/New Snapshot
+  m_EditorClassIdentifier: 
+  Path: snapshot:/New Snapshot
+  Guid:
+    Data1: -143593008
+    Data2: 1286872390
+    Data3: 324048295
+    Data4: 1493434421
+  Banks:
+  - {fileID: -2947290452518051627}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &4476456349280795576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ZoneThemes/BattleTheme
+  m_EditorClassIdentifier: 
+  Path: event:/ZoneThemes/BattleTheme
+  Guid:
+    Data1: 1028697293
+    Data2: 1231454404
+    Data3: -1417355643
+    Data4: 692704136
+  Banks:
+  - {fileID: 9111712085305500034}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 240000
+--- !u!114 &4622043604129636525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ZoneThemes/BattleThemeNarr
+  m_EditorClassIdentifier: 
+  Path: event:/ZoneThemes/BattleThemeNarr
+  Guid:
+    Data1: -598150518
+    Data2: 1126884991
+    Data3: 1450302641
+    Data4: -1890765694
+  Banks:
+  - {fileID: 9111712085305500034}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 240000
+--- !u!114 &4989186790203544441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Lvl1Theme/Parameter 1
+  m_EditorClassIdentifier: 
+  Name: Parameter 1
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 378342870
+    data2: 3510996760
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &5471316445414660556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/MinisteleLyrique
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/MinisteleLyrique
+  Guid:
+    Data1: -55250726
+    Data2: 1276185870
+    Data3: -285983609
+    Data4: 553988909
+  Banks:
+  - {fileID: 9111712085305500034}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 14026
+--- !u!114 &5828381896587329511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ZoneThemes/Lvl1Theme
+  m_EditorClassIdentifier: 
+  Path: event:/ZoneThemes/Lvl1Theme
+  Guid:
+    Data1: 302365955
+    Data2: 1148498350
+    Data3: 1827449476
+    Data4: -320757692
+  Banks:
+  - {fileID: 9111712085305500034}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 4989186790203544441}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 152058
+--- !u!114 &6112401946058794393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ZoneThemes/BattleThemePoet
+  m_EditorClassIdentifier: 
+  Path: event:/ZoneThemes/BattleThemePoet
+  Guid:
+    Data1: -532017209
+    Data2: 1089773673
+    Data3: 1311277247
+    Data4: 954581556
+  Banks:
+  - {fileID: 9111712085305500034}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 243200
+--- !u!114 &6432908596673004966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/EnemyDamaged
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/EnemyDamaged
+  Guid:
+    Data1: -885873150
+    Data2: 1302690375
+    Data3: -620396619
+    Data4: -339395030
+  Banks:
+  - {fileID: 9111712085305500034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 557
+--- !u!114 &7026840307665506607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/MinisteleShit
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/MinisteleShit
+  Guid:
+    Data1: -1967639513
+    Data2: 1338021360
+    Data3: -2097167969
+    Data4: 444145748
+  Banks:
+  - {fileID: 9111712085305500034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8290356702576644299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/Stele3Voice
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/Stele3Voice
+  Guid:
+    Data1: 15808046
+    Data2: 1263631376
+    Data3: 229536434
+    Data4: 1349395177
+  Banks:
+  - {fileID: 9111712085305500034}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 18750
+--- !u!114 &8614463229766330679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Voice/MinistelePoetique
+  m_EditorClassIdentifier: 
+  Path: event:/Voice/MinistelePoetique
+  Guid:
+    Data1: -1328101265
+    Data2: 1175505969
+    Data3: 1161687221
+    Data4: -1868839591
+  Banks:
+  - {fileID: 9111712085305500034}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9901
+--- !u!114 &9033574828275436658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ZoneThemes/BattleThemeArg
+  m_EditorClassIdentifier: 
+  Path: event:/ZoneThemes/BattleThemeArg
+  Guid:
+    Data1: -1663015685
+    Data2: 1314680557
+    Data3: 894512781
+    Data4: -563900982
+  Banks:
+  - {fileID: 9111712085305500034}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 240000
+--- !u!114 &9111712085305500034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Test.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Audio/FMODProject/Build/Desktop/Test.bank
+  Name: Test
+  StudioPath: bank:/Test
+  lastModified: 639310657890586344
+  FileSizes:
+  - Name: Desktop
+    Value: 21121280
+  Exists: 1

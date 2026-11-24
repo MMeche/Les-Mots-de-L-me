@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{3a38f9f9-fa93-4126-90c6-499adb3ffdf4}">
+		<property name="assetPath">
+			<value>GameNarStele.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>10.561814058956916</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3b024fe5-9778-4d51-ba8b-0b9b4340ae50}</destination>
+		</relationship>
+	</object>
+</objects>

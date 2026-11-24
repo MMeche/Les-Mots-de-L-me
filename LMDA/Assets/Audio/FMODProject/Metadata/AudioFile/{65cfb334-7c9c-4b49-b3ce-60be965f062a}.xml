@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{65cfb334-7c9c-4b49-b3ce-60be965f062a}">
+		<property name="assetPath">
+			<value>JDSherbert - Ultimate UI SFX Pack - Cursor - 1.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.04</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3b024fe5-9778-4d51-ba8b-0b9b4340ae50}</destination>
+		</relationship>
+	</object>
+</objects>

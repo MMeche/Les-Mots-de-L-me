@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8927084166120781741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7905434446083301218}
+  - component: {fileID: 8058801763963141089}
+  - component: {fileID: 2665881660072516462}
+  m_Layer: 0
+  m_Name: Poetic Minigam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &7905434446083301218
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8927084166120781741}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8058801763963141089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8927084166120781741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6643730f4d299674d964eff400232aa5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObstacleSpeed: 0.5
+  ObstacleChance: 0.5
+  GapBetweenObstacles: 3
+  ObstacleNumber: 10
+  OrbNumber: 4
+  _obstacles: {fileID: 7278280127680043400, guid: ef11f0934301de94498f93aef50ad1c0,
+    type: 3}
+  _orbs: {fileID: 8453443895269517314, guid: 30e97a0407b60ea428e4c16b040efd39, type: 3}
+  _lane: {fileID: 8966922251680098512, guid: 4d283a6a60997434883b4eb33b7b9fd2, type: 3}
+  _endTrigger: {fileID: 4180743377900359874, guid: 09825c79db1e92145bb5c60a7f5cad96,
+    type: 3}
+  _xOffset: 2.5
+  _yOffset: 2.5
+--- !u!114 &2665881660072516462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8927084166120781741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f01d6b08487892d409a3961faec15472, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ContactAllowed: 0
