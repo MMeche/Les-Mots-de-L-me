@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1f884e28de5d484ba1f45850712e028, type: 3}
+  m_Name: GardianEnemy02
+  m_EditorClassIdentifier: 
+  CharName: Nonassara Teritorial
+  CharacterGameObject: {fileID: 1494479990889874946, guid: ccb18387e7a4c164c862a13b8f0f61f6,
+    type: 3}
+  MaxHealth: 150
+  Defeated: 0
+  ExpGiven: 40
+  PoeticEnabled: 1
+  PoeticObstacleSpeed: 0.08
+  PoeticObstacleNumber: 20
+  PoeticObstacleChance: 0.4
+  PoeticGapBetweenObstacles: 3
+  PoeticEnemyDamage: 25
+  LyricEnabled: 1
+  LyricNbOfPoints: 15
+  LyricMaxLengthOfAlternativePaths: 0
+  LyricNbOfAlternativePaths: 0
+  LyricAnimationSpeed: 10
+  LyricEnemyDamage: 15
+  ArgEnabled: 1
+  ArgNbOfDefensiveCard: 2
+  ArgNbOfOffensiveCard: 2
+  ArgNbOfNeutralCard: 1
+  ArgNbOfSelectionSlot: 3
+  ArgEnemyDamage: 1.5
+  WordList: {fileID: 11400000, guid: d43ee4749254ab746a0813054d4a2515, type: 2}
+  AvailableEnemyCombos:
+  - {fileID: 11400000, guid: 28c5e763f49abc243b226350fbaa0655, type: 2}
+  - {fileID: 11400000, guid: bf70234a4db8ffe40913bd728acc2b52, type: 2}
+  - {fileID: 11400000, guid: 13fdd1cb6ad6a61499238905a2a2d09b, type: 2}
+  - {fileID: 11400000, guid: 891946bcc05373d469f18040d638ff24, type: 2}
+  - {fileID: 11400000, guid: dbafb399fe3e055468176bd8af4ebd21, type: 2}
+  - {fileID: 11400000, guid: 4c4f7738b2f737642aa4bb76206faa53, type: 2}
+  NarrativeEnabled: 1
+  NarrativeNumberOfDefensiveQTE: 5
+  NarrativeNumberOfOffensiveQTE: 2
+  NarrativeEnemyDamage: 15
+  MinSpawnTime: 1
+  MaxSpawnTime: 1.2
+  IndicatorShrinkSpeedModifier: 1.3
+  MinWidthSpawnDistance: 0.3
+  MaxWidthSpawnDistance: 0.7
+  MinHeightSpawnDistance: 0.3
+  MaxHeightSpawnDistance: 0.7

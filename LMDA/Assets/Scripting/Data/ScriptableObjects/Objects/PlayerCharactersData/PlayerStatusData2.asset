@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a555b24b83bac746812b4773ab46a0a, type: 3}
+  m_Name: PlayerStatusData2
+  m_EditorClassIdentifier: 
+  InitialSpawn: {x: -30.068, y: 33.457, z: 245.03}
+  PlayerIndex: 2
+  CharName: Proto
+  Position: {x: -30.068, y: 33.457, z: 245.03}
+  CharacterGameObject: {fileID: 5234501777727408821, guid: 7301c2198fb9468479c9d22063cdf634,
+    type: 3}
+  Level: 2
+  Experience: 140
+  MaxHealth: 100
+  Health: 100
+  AvailableSkillPoints: 0
+  ComboList:
+  - {fileID: 11400000, guid: dbafb399fe3e055468176bd8af4ebd21, type: 2}
+  - {fileID: 11400000, guid: 4c4f7738b2f737642aa4bb76206faa53, type: 2}
+  - {fileID: 11400000, guid: 52b745beca19db946a9623629a1d662f, type: 2}
+  - {fileID: 11400000, guid: ec1f740a439e4134fae3ed5d41a473eb, type: 2}
+  - {fileID: 11400000, guid: bf70234a4db8ffe40913bd728acc2b52, type: 2}
+  - {fileID: 11400000, guid: 45d35850a4ffb5d42a8d8ad045bb1b75, type: 2}
+  - {fileID: 11400000, guid: 891946bcc05373d469f18040d638ff24, type: 2}
+  - {fileID: 11400000, guid: 28c5e763f49abc243b226350fbaa0655, type: 2}
+  - {fileID: 11400000, guid: 13fdd1cb6ad6a61499238905a2a2d09b, type: 2}
+  - {fileID: 11400000, guid: bb5b4d7a737988f40b66df792cde73cc, type: 2}
+  EnemiesDefeated:
+  - Nonassara

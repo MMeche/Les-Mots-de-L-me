@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d8741449169d5248b9544805cc98cec, type: 3}
+  m_Name: BattleWordsFirstZone
+  m_EditorClassIdentifier: 
+  WordsLists:
+  - {fileID: 11400000, guid: fbed4804a22bba142818d60819e0bb25, type: 2}
+  - {fileID: 11400000, guid: be5c686ed65e1a946a84f89d19f87b15, type: 2}
+  - {fileID: 11400000, guid: 1be6d9abefe3b954e9ff431e2f88fbdc, type: 2}
+  - {fileID: 11400000, guid: 1cd4cf6771c402247a9ecceba4870107, type: 2}
+  - {fileID: 11400000, guid: e87c265fb4f920d49b73a099b67ed4f9, type: 2}
+  - {fileID: 11400000, guid: 27ecb95145fc1b149ad13e05016c303b, type: 2}
+  - {fileID: 11400000, guid: 229b74713af07574098e58f521870e6c, type: 2}
+  - {fileID: 11400000, guid: 28d59ca6cfd67d54aabfd009642fd328, type: 2}
+  - {fileID: 11400000, guid: adf1b628a8f0dd6429d1c81bd51d6e78, type: 2}
+  - {fileID: 11400000, guid: ae63ab1e563df9b45a922c93203de633, type: 2}
+  - {fileID: 11400000, guid: a695b0e7585dafb439b30f57dd1f0322, type: 2}
+  - {fileID: 11400000, guid: d48f6f32fbaae3b45bab9b00c4d4ba65, type: 2}
+  - {fileID: 11400000, guid: ae65acee0e672944ba905af9b45ec400, type: 2}
+  - {fileID: 11400000, guid: b0b0f80ff1455b043a16128c384d5b0b, type: 2}
+  - {fileID: 11400000, guid: 544fbdb4e0b90e24a9d60ef1a822d17a, type: 2}
+  - {fileID: 11400000, guid: 1c9b1b30e7ab38641a15e93c2f94f397, type: 2}
+  - {fileID: 11400000, guid: bcd8dbdcaad25e944b379121c26df482, type: 2}
+  - {fileID: 11400000, guid: 775ca59cdc7227345a936ef038958980, type: 2}
+  - {fileID: 11400000, guid: b00ba9ef5d5dcc74781a96c16406ed4d, type: 2}
+  - {fileID: 11400000, guid: 2340f6be400dccc49a198f464bcdddd2, type: 2}

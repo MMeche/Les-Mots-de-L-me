@@ -1,0 +1,1250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SteleScrollEditor" Collapsed="true">
+    <Position X="30" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAGAAAAAAAAAAAAAAQAAAACAA=</HashCode>
+      <FileName>Assets\Scripting\SteleScrollbarEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleDetectionManager">
+    <Position X="49.5" Y="11" Width="2.25" />
+    <AssociationLine Name="_enemyStatus" Type="EnemyStatus" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="50.812" Y="13.261" />
+        <Point X="50.812" Y="13.511" />
+        <Point X="48.25" Y="13.511" />
+        <Point X="48.25" Y="35.25" />
+        <Point X="47.427" Y="35.25" Type="JumpStart" />
+        <Point X="47.26" Y="35.25" Type="JumpEnd" />
+        <Point X="37.708" Y="35.25" Type="JumpStart" />
+        <Point X="37.542" Y="35.25" Type="JumpEnd" />
+        <Point X="34" Y="35.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AgAIAACAACAAAAAAAAAAAAAAAAQAAAIAQAAAAABAEAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Battles\BattleDetectionManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_enemyStatus" />
+      <Field Name="_playerStatus" />
+      <Field Name="_pauseManager" />
+      <Field Name="_sceneLoader" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BattleInputManager">
+    <Position X="77.5" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAABAAAAACAAAAAAAAAAQAAAgAIMAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Battles\BattleInputManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="PlayerInputs" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BattleManager">
+    <Position X="54.25" Y="33" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>IAAgBDCkAJAyBREiIAAAJAwAmQJYgiAKMAQAAoEA2IQ=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Battles\BattleManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_activePlayer" />
+      <Field Name="_argumentativeMinigame" />
+      <Field Name="_battleFlowStateMachine" />
+      <Field Name="_battleUIManager" />
+      <Field Name="_lyricMinigame" />
+      <Field Name="_enemyStatus" />
+      <Field Name="_lyricLayout" />
+      <Field Name="_poeticLayout" />
+      <Field Name="_poeticMinigame" />
+      <Field Name="_tutorialState" />
+      <Field Name="BattleManagerEventBus" />
+      <Field Name="BattleManagerEventContext" />
+      <Field Name="_narrativeMinigame" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="_playerStatuses" />
+      <Field Name="_playerPlatform" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="BattleManagerEventBus">
+    <Position X="53" Y="27.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAABAAIABIACABAAAAAgCAAAACQAQAACCAYAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Battles\BattleManagerEventBus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleManagerEventContext">
+    <Position X="49.75" Y="40" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Battles\BattleManagerEventContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattlePlatforms">
+    <Position X="59.25" Y="41.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAIAACAg=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Battles\BattlePlatforms.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleCamManager">
+    <Position X="28.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAAAAAABAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Cams\BattleCamManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraEventListener">
+    <Position X="50.25" Y="32.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAIAAAAAAAAEAAAAIAAgAAAAAKgAAAAiAACAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Cams\CameraEventListener.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_battleManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OverWorldCamEventListener">
+    <Position X="8" Y="24.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAgAAAAAAAAAACAAAgAEAAAAADAACAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Cams\OverWorldCamEventListener.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_fsm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TPCamController">
+    <Position X="73" Y="18.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIEAAEiACAAACAAAAAAAEAQEAEAAAAAAAAAAASEA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Cams\TPCamController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_inputs" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DialoguesManager">
+    <Position X="69.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAhAAAAAAAAgAAIAAAAAAAAAAAAACEAAIAAAAAiAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Dialogues\DialoguesManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_playerInputs" />
+      <Field Name="_fsm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ScrollBarEventLink" Collapsed="true">
+    <Position X="33.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAIAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Dialogues\ScrollBarEventLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SteleScrollbar" Collapsed="true">
+    <Position X="37" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAQAAAARAEIAAAAAAAASABAAAAAiACAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Dialogues\SteleScrollbar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BossDataHolder">
+    <Position X="22.5" Y="30.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAEAAAAQAAACAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Enemy\BossDataHolder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyActions">
+    <Position X="49.25" Y="36.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAQAAAgAACAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Enemy\EnemyActions.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_battleFlowStateMachine" />
+      <Field Name="_battleManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EnemyAnimationManager" Collapsed="true">
+    <Position X="33.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Enemy\EnemyAnimationManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyDataHolder">
+    <Position X="21.25" Y="34" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAIAAAAAAIAAAAAAAAAAAAAAAAAAAAACACAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Enemy\EnemyDataHolder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyOverworldAI" Collapsed="true">
+    <Position X="35.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIxABAIgCCAAIAAAAAAAAAQAAAAAAAAAAAAAgQAAIEA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Enemy\EnemyOverworldAI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TutorialEnemyDataHolder">
+    <Position X="20.75" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Enemy\TutorialEnemyDataHolder.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_tutorialStatus" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="InteractionDetectionManager">
+    <Position X="62.75" Y="14.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAACCAAAAACAAAAACBAAQAAIAAQAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Interactable\InteractionDetectionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SteleInteractable" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEABAAAAAAgAQIgAAAAAAIAAAAAEEAIAAIAgACAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Interactable\SteleInteractable.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_fsm" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ArgumentativeManager">
+    <Position X="71.75" Y="33" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>GCARDJTAgIDCMJIAAASAQAJAABAAACgMBAACggEiCA4=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Minigame\Argumentative\ArgumentativeManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_selectionGrid" />
+      <Field Name="_battleFlowStateMachine" />
+      <Field Name="_battleUIManager" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="_argCards" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ArgWordCardLogic">
+    <Position X="72.75" Y="22.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AACAAAEEAUAAAAQAAAACAAACBAAGAABQAAAAAEAACAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Minigame\Argumentative\ArgWordCardLogic.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_type" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SelectionGridLogic">
+    <Position X="75.25" Y="32.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAIAABBCBAAEAAAAgAgAAAAAAAAAAIAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Minigame\Argumentative\SelectionGridLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LyricKnobLogic">
+    <Position X="49" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAIAAAABAAABAAgABAAlAAAAAAAAQAACAAgCAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Minigame\Lyric\LyricKnobLogic.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Type" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LyricMinigameLayoutGenerator">
+    <Position X="61.5" Y="33" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BEAAADAAAAAAABKgAIAAAEAAAAAAAAAIAAAACDAACAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Minigame\Lyric\LyricMinigameLayoutGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LyricMinigameManager">
+    <Position X="64.25" Y="33" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACABBADAABCCIAAQAAAhAAMAQAAAACCMEAAgAgAADAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Minigame\Lyric\LyricMinigameManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_battleFlowStateMachine" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LyricSplineLogic">
+    <Position X="62.5" Y="37.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Minigame\Lyric\LyricSplineLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuntimeSplineGenerator">
+    <Position X="62" Y="31.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Minigame\Lyric\RuntimeSplineGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QTE">
+    <Position X="59.25" Y="29.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAQAAIAAAAgAAAAQAAAAAAABIAQAAEAAAAIQA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Minigame\Narrative\QTE.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_manager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="QTEManager">
+    <Position X="58.75" Y="33" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ACJQTQAICAAgAABAAAACAAIBAAAgAQAMAAAAAoAADIA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Minigame\Narrative\QTEManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_battleFlowStateMachine" />
+      <Field Name="_playerInputs" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PoeticColliderLogic">
+    <Position X="51.5" Y="17.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAACAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Minigame\Poetic\PoeticColliderLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoeticEndTrigger">
+    <Position X="51.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAACAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Minigame\Poetic\PoeticEndTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoeticMiniGameLayoutGenerator">
+    <Position X="66.5" Y="33" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAQAEAhACAAAYEAABAAAAiACEAIQIAgCAAAAICAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Minigame\Poetic\PoeticMiniGameLayoutGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoeticMinigameManager">
+    <Position X="69.5" Y="33" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACBBBAEAAEAAAAAAAAAAAAMAAAAAAIANAAAAAkAAGAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Minigame\Poetic\PoeticMinigameManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_battleFlowStateMachine" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PoeticOrbLogic">
+    <Position X="67.5" Y="30.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAACAAAAAACAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Minigame\Poetic\PoeticOrbLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AIFollowController" Collapsed="true">
+    <Position X="30" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAiBAQAAAAAAIIAAAAAIAAIAAYAAAQAAAACA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Player\AIFollowController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleMouseSelection">
+    <Position X="79.25" Y="13.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAABAAAABAAIAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Player\BattleMouseSelection.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_selectionController" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BattleSelectionActions">
+    <Position X="75.5" Y="12.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>CAAFhAAAAKAAQAAAAAAAAAIBAAAAgAIMAAAAAgEACAQ=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Player\BattleSelectionActions.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_battleInputManager" />
+      <Field Name="_playerInputs" />
+      <Field Name="_battleFlowStateMachine" />
+      <Field Name="_fsm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlayerActions">
+    <Position X="69.75" Y="10" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gEAEFAFEAmAAYAAQAIhMAABAIAAAAQIMACFIAABACAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Player\PlayerActions.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_statManager" />
+      <Field Name="_playerInputs" />
+      <Field Name="_idm" />
+      <Field Name="_fsm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlayerAnimationManager" Collapsed="true">
+    <Position X="33.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAABAAIAAAAAAAAAAAIAEACAAACAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Player\PlayerAnimationManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerBattleAction">
+    <Position X="75.5" Y="6.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AQAFBAAMCgBAYAAAAAAQAAIAAAAAAAJIACRAAgQACAI=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Player\PlayerBattleAction.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_playerInputs" />
+      <Field Name="_battleInputManager" />
+      <Field Name="_battleFlowStateMachine" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CombatDoorManager">
+    <Position X="12" Y="25.5" Width="2.25" />
+    <AssociationLine Name="_mainStatus" Type="TutorialState">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.16" Y="-1.075" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAQCAAAAAAAAAAAAAAAAAAAAAEAAAAAEAACAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\WorldEventLogic\CombatDoorManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_mainStatus" />
+      <Field Name="_fsm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CombatSteleActivator">
+    <Position X="15.25" Y="25.5" Width="2.5" />
+    <AssociationLine Name="_mainStatus" Type="TutorialState" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="16.344" Y="28.338" />
+        <Point X="16.344" Y="28.713" />
+        <Point X="16.25" Y="28.713" />
+        <Point X="16.25" Y="29.75" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.096" Y="1.259" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAQCAAAAAAAAAAAAAAAAQAAAEEAAAAAAACCIQ=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\WorldEventLogic\CombatSteleActivator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_mainStatus" />
+      <Field Name="_fsm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FirelightsAnimatorManager">
+    <Position X="9.5" Y="31.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\WorldEventLogic\FirelightsAnimatorManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_tutorialStatus" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="InvisibleBarrierActivation">
+    <Position X="10" Y="33.5" Width="2" />
+    <AssociationLine Name="_tutorialState" Type="TutorialState" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11.656" Y="33.5" />
+        <Point X="11.656" Y="33.2" />
+        <Point X="16.5" Y="33.2" />
+        <Point X="16.5" Y="32.588" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAABAAAAAAAAIAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\WorldEventLogic\InvisibleBarrierActivation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_tutorialState" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AudioManager" Collapsed="true">
+    <Position X="31.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAEIIAACAAAAAAAAAQAgAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\Audio\AudioManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerAudio" Collapsed="true">
+    <Position X="35.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAACAAAQAAABAAAAAAAAAAQAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\Audio\PlayerAudio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SliderVolumeController" Collapsed="true">
+    <Position X="35.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAEAAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\Audio\SliderVolumeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIAudio" Collapsed="true">
+    <Position X="31.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAACAAAAAAAAAAAAACAIAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\Audio\UIAudio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleBaseState">
+    <Position X="29.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAQAAAAEAAAAIAAAAAAAIAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\BattleStateMachine\BattleBaseState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleStateMachine">
+    <Position X="18.5" Y="16" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAABAAAAAAAAABAAAIAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\BattleStateMachine\BattleStateMachine.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_currentState" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlayerEventBus">
+    <Position X="67.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAMAAAAAAAAABAQIAAAAEAAAAAAAQAABEgA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\PlayerRelatedEventBus\PlayerEventBus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerEventContext">
+    <Position X="65" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIEBAAIAAAAAgBAAAAAAAAAAEBBAAAAAACAAAIAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\PlayerRelatedEventBus\PlayerEventContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoadSystem" Collapsed="true">
+    <Position X="31.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\SaveSystem\LoadSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaveSystem" Collapsed="true">
+    <Position X="31.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\SaveSystem\SaveSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaveData">
+    <Position X="18.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\SaveSystem\SaveSystem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_tutorialSaveData" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="_allPlayerSaveData" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="PlayerSaveData">
+    <Position X="17" Y="10.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAACBAAAAgACABgAAAAAAAAACAAAAABAAAABAAAyAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\SaveSystem\SaveSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TutorialSaveData">
+    <Position X="19.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\SaveSystem\SaveSystem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Tuto" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="IServiceClient" Collapsed="true">
+    <Position X="30" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\ServiceLocator\IServiceClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServiceLocator" BaseTypeListCollapsed="true">
+    <Position X="31.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABQAAAAAAAAAAABAAAAAAEBAAAAEAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\ServiceLocator\ServiceLocator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ServiceProvider">
+    <Position X="34.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\ServiceLocator\ServiceProvider.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ServiceLocator" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FlowStateMachineEventBus">
+    <Position X="1" Y="20.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABAgECAAABAAQAgAEAAAUIIAAQBACAAYAAIICAAAAIA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\StateMachine\FlowStateMachine\Event\FlowStateMachineEventBus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlowStateMachineEventContext">
+    <Position X="6.25" Y="21" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AgAKQACAAAAAAACAAAAAAAAAAAAAAAAQAAAAIAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\StateMachine\FlowStateMachine\Event\FlowStateMachineEventContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlowState_Dialog">
+    <Position X="4.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAGAAQAYAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\StateMachine\FlowStateMachine\States\FlowState_Dialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlowState_Overworld">
+    <Position X="7" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAGAAQAYAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\StateMachine\FlowStateMachine\States\FlowState_Overworld.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlowState_Pause">
+    <Position X="9.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAGAAQAYAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\StateMachine\FlowStateMachine\States\FlowState_Pause.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlowProgressTracker">
+    <Position X="4" Y="21" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="FlowProgressTracker.GamePhase" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripting\Scripts\Services\StateMachine\FlowStateMachine\FlowProgressTracker.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgACACCIIBAAAAAEAAAAgAAAI=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\StateMachine\FlowStateMachine\FlowProgressTracker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlowStateMachine">
+    <Position X="5" Y="18.75" Width="5.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAABAAAAAAAAIAAAAAAIAGEA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\StateMachine\FlowStateMachine\FlowStateMachine.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="FlowStates" />
+      <Field Name="FlowProgressTracker" />
+      <Field Name="FlowStateMachineEventBus" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FlowStates">
+    <Position X="3.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAEAAAgAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\StateMachine\FlowStateMachine\FlowStates.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="FlowStateEnterDialog" />
+      <Field Name="FlowStateEnterOverWorld" />
+      <Field Name="FlowStatePause" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BaseState">
+    <Position X="7" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAQAAAAEAAAAIAAAAAAAIAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\StateMachine\BaseState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMachine">
+    <Position X="0.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAABAAAAAAAAABAAAIAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\StateMachine\StateMachine.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_currentState" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FMODEvents" Collapsed="true">
+    <Position X="37" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAABAgIAAAAAAAAABAEAAAAAABAIAQBAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\FMODEvents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManager">
+    <Position X="24.75" Y="25.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CEAIABAIAAAAAgAAAAAACAAAIBAAAAAMACAIBABAGAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\GameManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_enemiesDataHolder" />
+      <Field Name="_tutoStatus" />
+      <Field Name="_enemyStatus" />
+      <Field Name="_playerStatus" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="InputManager">
+    <Position X="69.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAEAAAAACAAAAAAAAABAAAAAAAMAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\InputManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_playerInputs" />
+      <Field Name="_fsm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SceneLoader">
+    <Position X="47.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAIAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\SceneLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleUIEventBus">
+    <Position X="49.25" Y="47" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAEAAAAAAAAAAQAAgAEAAAAQCECEhAAAAAICA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\UI\BattleUIEventBus\BattleUIEventBus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleUIEventContext">
+    <Position X="52.5" Y="47" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAJIAACAQAAgAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\UI\BattleUIEventBus\BattleUIEventContext.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="EnemyStatus" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DeleteConfirmLogic">
+    <Position X="15.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAEAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\UI\Menus\DeleteConfirmLogic.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_loadSection" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LoadingScreen">
+    <Position X="18.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAQQAAAAAAAAAAACAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\UI\Menus\LoadingScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoadSectionManager">
+    <Position X="18.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>UAAAQAAAACAAAAABAAIAAKESAgAAAAAoAAAQAAAACAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\UI\Menus\LoadSectionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PauseManager">
+    <Position X="15.5" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EEgAqggAQAAgBQAAA4UAAIQAAAAEAAIMkAAgIQAACAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\UI\Menus\PauseManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_loadingScreen" />
+      <Field Name="_loadSection" />
+      <Field Name="_fsm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlaySection">
+    <Position X="25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\UI\Menus\PlaySection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaveItem" Collapsed="true">
+    <Position X="30" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABBAIAAAAAEAIAAABAAAAAgAAIAAACIAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\UI\Menus\SaveItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TittleScreen">
+    <Position X="21.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EEEAwAEACIAAgQAgAAwAoAAAIAQEAAAIkACRAACiGAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\UI\Menus\TittleScreen.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_loadingScreen" />
+      <Field Name="_loadSection" />
+      <Field Name="_playSection" />
+      <Field Name="_tutoStatus" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="UnlockedInputField">
+    <Position X="39" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\UI\Menus\UnlockedInputField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerStatDisplay">
+    <Position X="62.5" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAAACMAACAEAAAAAQAIACAAAAACYAABEgAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\UI\PlayerStatUI\PlayerStatDisplay.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_uiManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MoveTutorial">
+    <Position X="16.25" Y="34" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABBAAAAiAAAAAAAAAABAABAAAAAAQIAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\UI\Tutorials\MoveTutorial.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_tutorialState" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PopupCallToAction" Collapsed="true">
+    <Position X="37" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAgAAAAAAAAAAAAABAAAAAIAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\UI\Tutorials\PopupCallToAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StatTutorialManager">
+    <Position X="27.75" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAABAAAAAAAAAAAAAAAAIAAEAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\UI\Tutorials\StatTutorialManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIEventBus">
+    <Position X="57.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAgACAAAAAEAAgAAAAAAAAAgAEAAAAAAAQABQAAAgA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\UI\UIEventBus\UIEventBus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIEventContext">
+    <Position X="59" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEBAQCAAAAAAgAAAACAAAAAAAIBAAABIIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\UI\UIEventBus\UIEventContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleUIManager">
+    <Position X="50.75" Y="41" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAkABAAAAIIAAgAIABAAAoAAAEAACAAMAAgAGgASKQA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\UI\BattleUIManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="BattleUIEventBus" />
+      <Field Name="BattleUIEventContext" />
+      <Field Name="_battleFlowStateMachine" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DamageDisplayOnHealthBar">
+    <Position X="48.25" Y="41" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\UI\DamageDisplayOnHealthBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DamagePopUps">
+    <Position X="49" Y="42.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEDAACACAAQAAAAAAAEAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\UI\DamagePopUps.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_type" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EnemyStatusUIManager">
+    <Position X="27.5" Y="42.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAQAAAAAQABAAAAAAACEAAAAAAAIAGQA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\UI\EnemyStatusUIManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_enemyStatus" />
+      <Field Name="_battleUIManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlayerCombatOptionManager">
+    <Position X="46.5" Y="42.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EABBQACAAABoCAAAAAAAAEIAAAABACAAIKABQgAACAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\UI\PlayerCombatOptionManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_battleUIManager" />
+      <Field Name="_battleFlowStateMachine" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlayerStatusUIManager">
+    <Position X="49.5" Y="13.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAQAIAAAAAAAQAAAAAQABAAAAAAACEAAAAAAAJAGQA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\UI\PlayerStatusUIManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_playerStatus" />
+      <Field Name="_battleUIManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SecondaryPlayerStatusUIManager">
+    <Position X="54.75" Y="44.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAIAAAAAgAEAAAAAAAAAAgBAAACAIAAIAAgAACQA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\UI\SecondaryPlayerStatusUIManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_battleUIManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="UIManager">
+    <Position X="62" Y="7.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACMAAAAAAAAAAoAAAAAAAAAEAAUAEAAACQA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\UI\UIManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="UIEventBus" />
+      <Field Name="UIEventContext" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TutorialState">
+    <Position X="15.25" Y="29.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAABAAAAAAAAAAIAAAgAABAAAAIAAACAAA=</HashCode>
+      <FileName>Assets\Scripting\Data\ScriptableObjects\TutorialState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleFlowState_Argumentative">
+    <Position X="20.75" Y="18.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAGAAAAYAAAAgAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\BattleStateMachine\FlowStateMachine\States\BattleFlowState_Argumentative.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleFlowState_EndCombat">
+    <Position X="23.75" Y="18.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAGAAQAYAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\BattleStateMachine\FlowStateMachine\States\BattleFlowState_EndCombat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleFlowState_EnemyTurn">
+    <Position X="26.5" Y="18.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAGAAQAYAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\BattleStateMachine\FlowStateMachine\States\BattleFlowState_EnemyTurn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleFlowState_EnterCombat">
+    <Position X="29" Y="18.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAGAAAAYAAAAgAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\BattleStateMachine\FlowStateMachine\States\BattleFlowState_EnterCombat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleFlowState_Lyric">
+    <Position X="31.5" Y="18.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAGAAAAYAAAAgAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\BattleStateMachine\FlowStateMachine\States\BattleFlowState_Lyric.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleFlowState_Narrative">
+    <Position X="33.5" Y="18.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAGAAAAYAAAAgAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\BattleStateMachine\FlowStateMachine\States\BattleFlowState_Narrative.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleFlowState_PlayerTurn">
+    <Position X="35.75" Y="18.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAGAAAAYAAAAgAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\BattleStateMachine\FlowStateMachine\States\BattleFlowState_PlayerTurn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleFlowState_Poetic">
+    <Position X="38.25" Y="18.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAGAAAAYAAAAgAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\BattleStateMachine\FlowStateMachine\States\BattleFlowState_Poetic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleFlowState_PoeticMinigameFail">
+    <Position X="40.5" Y="18.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAGAAAAYAAAAgAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\BattleStateMachine\FlowStateMachine\States\BattleFlowState_PoeticMinigameFail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleFlowState_Tutorial">
+    <Position X="43.5" Y="18.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAGAAAAYAAAAgAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\BattleStateMachine\FlowStateMachine\States\BattleFlowState_Tutorial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleFlowStateMachine">
+    <Position X="34.25" Y="25.5" Width="6.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABgAAAAAAAIAIAAAAAACEA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\BattleStateMachine\FlowStateMachine\BattleFlowStateMachine.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="BattleStates" />
+      <Field Name="BattleFlowStateMachineEventBus" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BattleStates">
+    <Position X="33.5" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAFAIAAQIACAAAAgAAAAQAAAAAgACAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\BattleStateMachine\FlowStateMachine\BattleStates.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="BattleFlowState_Narrative" />
+      <Field Name="BattleFlowStateArgumentative" />
+      <Field Name="BattleFlowStateEndCombat" />
+      <Field Name="BattleFlowStateEnemyTurn" />
+      <Field Name="BattleFlowStateEnterCombat" />
+      <Field Name="BattleFlowStateLyric" />
+      <Field Name="BattleFlowStatePlayerTurn" />
+      <Field Name="BattleFlowStatePoetic" />
+      <Field Name="BattleFlowStatePoeticMinigameFail" />
+      <Field Name="BattleFlowStateTutorial" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EnemyStatus">
+    <Position X="31.5" Y="31.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>gABAIEAAgEEADQVMwUCIkQAAACQGAAAoAAEAAAAAgAA=</HashCode>
+      <FileName>Assets\Scripting\Data\ScriptableObjects\EnemyStatus.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="WordList" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlayerStatus">
+    <Position X="53" Y="12.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAACEAAAgAgDABgAAAIAAAAAAAAAAABAAAAAAAAwAA=</HashCode>
+      <FileName>Assets\Scripting\Data\ScriptableObjects\PlayerStatus.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="ComboList" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="EnemyWordList">
+    <Position X="28.25" Y="38.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAIAAABAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Assets\Scripting\Data\ScriptableObjects\EnemyWordList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArgComboData">
+    <Position X="56" Y="13" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAAgAAAAAAAgAAA=</HashCode>
+      <FileName>Assets\Scripting\Data\ScriptableObjects\ArgComboData.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="ComboProfile" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="@PlayerInputs">
+    <Position X="72.75" Y="1" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="@PlayerInputs.LyricalActions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripting\Data\PlayerInputs.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Interface Name="@PlayerInputs.IPoeticActions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripting\Data\PlayerInputs.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Interface>
+      <Interface Name="@PlayerInputs.IBattleSelectionActions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripting\Data\PlayerInputs.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Interface>
+      <Struct Name="@PlayerInputs.ArgumentativeActions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripting\Data\PlayerInputs.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Interface Name="@PlayerInputs.INarrativeActions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripting\Data\PlayerInputs.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Interface>
+      <Struct Name="@PlayerInputs.UIActions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripting\Data\PlayerInputs.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="@PlayerInputs.NarrativeActions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripting\Data\PlayerInputs.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="@PlayerInputs.PlayerActions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripting\Data\PlayerInputs.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="@PlayerInputs.BattleSelectionActions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripting\Data\PlayerInputs.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Interface Name="@PlayerInputs.IPlayerActions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripting\Data\PlayerInputs.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Interface>
+      <Interface Name="@PlayerInputs.IUIActions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripting\Data\PlayerInputs.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Interface>
+      <Interface Name="@PlayerInputs.ILyricalActions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripting\Data\PlayerInputs.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Interface>
+      <Struct Name="@PlayerInputs.PoeticActions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripting\Data\PlayerInputs.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Interface Name="@PlayerInputs.IArgumentativeActions" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripting\Data\PlayerInputs.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Interface>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AIEGAA4aBCwAIFACAAKEWxBJYAIXCGAVAGEkIFhYBsA=</HashCode>
+      <FileName>Assets\Scripting\Data\PlayerInputs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PlayerStatManager">
+    <Position X="66" Y="10.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAADAUAAAAAAAQAQQNAAgARAAkAgAAAAAISAg=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Player\Stats\PlayerStatManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_uiManager" />
+      <Field Name="PlayerEventBus" />
+      <Field Name="PlayerEventContext" />
+      <Field Name="_bfsm" />
+      <Field Name="_fsm" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="PlayerStatuses" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="BattleFlowStateMachineEventBus">
+    <Position X="28.25" Y="25.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>CAQABCAAAIBgyCAAAABIBAAAAgQADAQgAAQgSQDKCAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\BattleStateMachine\FlowStateMachine\Event\BattleFlowStateMachineEventBus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="KnobMessageEndContext">
+    <Position X="48.5" Y="18.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Minigame\Lyric\LyricKnobLogic.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Type" />
+    </ShowAsAssociation>
+  </Struct>
+  <Interface Name="IInteractable">
+    <Position X="41.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEABAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Interactable\IInteractable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IServiceLocator">
+    <Position X="43" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAABAAAAAAEAAAAAEAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Services\ServiceLocator\IServiceLocator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ArgCardType" Collapsed="true">
+    <Position X="64.5" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Minigame\Argumentative\ArgWordCardLogic.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="KnobType" Collapsed="true">
+    <Position X="45.75" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAQAAIAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripting\Scripts\Gameplay\Minigame\Lyric\LyricKnobLogic.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DamageType">
+    <Position X="44.25" Y="42.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripting\Scripts\UI\DamagePopUps.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
